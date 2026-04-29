@@ -19,7 +19,7 @@ SwiftUI sample app for connecting to an MQTT broker on iOS, publishing messages,
 ## Default Demo Values
 
 - Broker URL: `tcp://broker.emqx.io:1883`
-- Client ID: `kotlin_client_03`
+- Client ID: `swift_client_03`
 - Username: `test`
 - Password: `test`
 - Topic: `A3/test/logs`

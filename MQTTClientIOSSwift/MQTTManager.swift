@@ -24,7 +24,7 @@ enum MQTTManagerError: LocalizedError {
 
 struct MQTTDefaults {
     static let brokerURL = "tcp://broker.emqx.io:1883"
-    static let clientId = "kotlin_client_03"
+    static let clientId = "swift_client_03"
     static let username = "test"
     static let password = "test"
     static let topic = "A3/test/logs"

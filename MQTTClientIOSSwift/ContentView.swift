@@ -61,7 +61,7 @@ struct ContentView: View {
 
             Group {
                 labeledField(title: "Broker URL", text: $brokerURL, prompt: "tcp://broker.emqx.io:1883")
-                labeledField(title: "Client ID", text: $clientId, prompt: "kotlin_client_03")
+                labeledField(title: "Client ID", text: $clientId, prompt: MQTTDefaults.clientId)
                 labeledField(title: "Username", text: $username, prompt: "test")
                 labeledSecureField(title: "Password", text: $password, prompt: "test")
             }
